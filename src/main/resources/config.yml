@@ -1,0 +1,133 @@
+#    __  __ _        _____ _                
+#   |  \/  (_)_ __  |_   _(_)_ __ ___   ___ 
+#   | |\/| | | '__|   | | | | '_ ` _ \ / _ \
+#   | |  | | | |      | | | | | | | | |  __/
+#   |_|  |_|_|_|      |_| |_|_| |_| |_|\___|
+#                                           
+#   Project: Mir Time | Author: Ars3nBar
+
+prefix: "&#0055ff&l⚡ &#00E5FF&lMIR-TIME &8» "
+
+rewards:
+  m10:
+    slot: 10
+    minutes: 10
+    material: COOKED_BEEF
+    name: "&#00E5FF&l10 минут на сервере"
+    lore:
+      - "&7Награда новичка:"
+      - " &b▪ &f3.000 монет"
+      - " &b▪ &f16 стейков"
+    commands:
+      - "eco give %player% 3000"
+      - "give %player% cooked_beef 16"
+  m30:
+    slot: 11
+    minutes: 30
+    material: IRON_INGOT
+    name: "&#00E5FF&l30 минут на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f7.500 монет"
+      - " &b▪ &f50 токенов"
+    commands:
+      - "eco give %player% 7500"
+      - "p give %player% 50"
+  h1:
+    slot: 12
+    minutes: 60
+    material: GOLD_INGOT
+    name: "&#00E5FF&l1 час на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f15.000 монет"
+      - " &b▪ &f100 токенов"
+    commands:
+      - "eco give %player% 15000"
+      - "p give %player% 100"
+  h3:
+    slot: 13
+    minutes: 180
+    material: DIAMOND
+    name: "&#00E5FF&l3 часа на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f35.000 монет"
+      - " &b▪ &f200 токенов"
+    commands:
+      - "eco give %player% 35000"
+      - "p give %player% 200"
+  h10:
+    slot: 14
+    minutes: 600
+    material: EMERALD
+    name: "&#00E5FF&l10 часов на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f1 ключ от Кейса Артефактов"
+      - " &b▪ &f50.000 монет"
+    commands:
+      - "cases give %player% artifacts 1"
+      - "eco give %player% 50000"
+  h25:
+    slot: 15
+    minutes: 1500
+    material: NETHERITE_SCRAP
+    name: "&#00E5FF&l25 часов на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f500 токенов"
+      - " &b▪ &f100.000 монет"
+    commands:
+      - "p give %player% 500"
+      - "eco give %player% 100000"
+  h50:
+    slot: 16
+    minutes: 3000
+    material: ENDER_CHEST
+    name: "&#00E5FF&l50 часов на сервере"
+    lore:
+      - "&7Награда:"
+      - " &b▪ &f2 ключа от Кейса Артефактов"
+      - " &b▪ &f200.000 монет"
+    commands:
+      - "cases give %player% artifacts 2"
+      - "eco give %player% 200000"
+  h100:
+    slot: 29
+    minutes: 6000
+    material: TOTEM_OF_UNDYING
+    name: "&#00FF66&l100 часов — ВЕТЕРАН"
+    lore:
+      - "&7Награда:"
+      - " &a▪ &f1.500 токенов"
+      - " &a▪ &f350.000 монет"
+    commands:
+      - "p give %player% 1500"
+      - "eco give %player% 350000"
+  h200:
+    slot: 31
+    minutes: 12000
+    material: BEACON
+    name: "&#00FF66&l200 часов — ЭЛИТА"
+    lore:
+      - "&7Награда:"
+      - " &a▪ &f3 ключа от Кейса Артефактов"
+      - " &a▪ &f600.000 монет"
+    commands:
+      - "cases give %player% artifacts 3"
+      - "eco give %player% 600000"
+  h300:
+    slot: 33
+    minutes: 18000
+    material: NETHER_STAR
+    name: "&d&l300 ЧАСОВ — ЛЕГЕНДА MIR-TIME!"
+    lore:
+      - "&7Максимальная награда за 300 часов:"
+      - " &d▪ &f5.000 токенов"
+      - " &d▪ &f5 ключей от Кейса Артефактов"
+      - " &d▪ &f1.500.000 монет"
+    commands:
+      - "p give %player% 5000"
+      - "cases give %player% artifacts 5"
+      - "eco give %player% 1500000"
